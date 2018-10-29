@@ -150,6 +150,8 @@ namespace BasketAPI.Services
             var toRemove = _dataContext.Baskets.FirstOrDefault(i => i.CartId == basketId);
             if (toRemove != null)
                 _dataContext.Baskets.Remove(toRemove);
+            else
+                return false;
             return true;
         }
 

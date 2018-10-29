@@ -1,2 +1,5 @@
-obj/
-bin/
+BasketAPI/obj/
+BasketAPI/bin/
+BasketAPI.Testing/obj/
+BasketAPI.Testing/bin/
+.vs/
