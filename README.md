@@ -37,3 +37,6 @@ Feel free to make any assumptions whenever you are not certain about the require
 To access the Swagger UI run the project and browse to the route:
 http://localhost:5000/swagger/index.html 
 -	Automapper is used to map Data models to Data Transfer Models. 
+### Solution structure:
+- The solution contains two projects, the API Project and the Unit Testing 
+- The unit testing project is for demonstration purposes, the coverage of unit testing itself is not complete.
