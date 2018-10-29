@@ -31,6 +31,8 @@ Feel free to make any assumptions whenever you are not certain about the require
 -	Assuming the price of items will not change (If the user create a cart will).
 -	Assuming we’ll receive a valid user id always (no customer id validation).
 -	Assuming we’ll receive a valid item id always (no items validation).
+- No authentication or authorization is integrated.
+- Data objects are stored in memory.
 ### Used technologies and plugins:
 -	The project is using Dotnet core 2.1
 -	Swashbuckle is used to provide a Swagger UI page with full documentation for all APIs 
@@ -39,4 +41,4 @@ http://localhost:5000/swagger/index.html
 -	Automapper is used to map Data models to Data Transfer Models. 
 ### Solution structure:
 - The solution contains two projects, the API Project and the Unit Testing 
-- The unit testing project is for demonstration purposes, the coverage of unit testing itself is not complete.
+- The unit testing project is for demonstration purposes, the coverage of unit testing itself is not complete because of time limitations.
